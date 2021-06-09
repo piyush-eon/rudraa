@@ -1,0 +1,15 @@
+.mainbutton {
+  width: 300px;
+  text-align: center;
+  padding: 20px 30px;
+  background-image: linear-gradient(to right, #47c5e7 0%, #428ea2 100%);
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.mainbutton:hover {
+  background-image: linear-gradient(to right, #428ea2 0%, #47c5e7 100%);
+}

@@ -1,0 +1,24 @@
+.nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 130px;
+  padding: 30px 70px;
+  position: fixed;
+  z-index: 10;
+
+  &__items {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    width: 44%;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    &--single {
+      cursor: pointer;
+    }
+  }
+}

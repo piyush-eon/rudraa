@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 500px;
+  justify-content: space-between;
+  text-align: center;
+
+  &__img {
+    border-radius: 40px;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+  }
+
+  &__title {
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 30px;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-size: 25px;
+  }
+}

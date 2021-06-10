@@ -1,7 +1,11 @@
 import "./styles.scss";
 
-const MainButton = ({ children }) => {
-  return <div className="mainbutton">{children}</div>;
+const MainButton = ({ children, type }) => {
+  return (
+    <button className="mainbutton" type={type}>
+      {children}
+    </button>
+  );
 };
 
 export default MainButton;

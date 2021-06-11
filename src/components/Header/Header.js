@@ -8,7 +8,7 @@ const Header = () => {
       <ul className="nav__items">
         {data.nav.map((item) => (
           <li className="nav__items--single" key={item}>
-            {item}
+            <a href={`#${item}`}>{item}</a>
           </li>
         ))}
       </ul>

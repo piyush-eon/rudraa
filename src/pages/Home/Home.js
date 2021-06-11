@@ -22,7 +22,7 @@ const Home = () => {
   };
 
   return (
-    <div className="home">
+    <div className="home" id="Home">
       <div className="first">
         <div className="first__text">
           <span className="first__text--title">{data.title}</span>
@@ -40,7 +40,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="third pad">
+      <div className="third pad" id="Featured Products">
         <div className="third__head">
           <span className="third__head--text">{data.title2}</span>
           <img alt="img" src="/path.svg" width="100%" />
@@ -63,7 +63,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="fifth pad">
+      <div className="fifth pad" id="Contact us">
         <form className="fifth__form" onSubmit={submitHandler}>
           <h1 className="fifth__form--title">Get In Touch</h1>
           <input

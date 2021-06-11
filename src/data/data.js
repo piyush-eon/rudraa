@@ -1,5 +1,5 @@
 export const data = {
-  nav: ["Home", "Page 1", "Page 2", "Page 3", "Page 4", "Contact us"],
+  nav: ["Home", "Featured Products", "Contact us"],
   title: "Cashew nut shell products",
   subTitle:
     "We are manufacturer of CNSL(Cashew Nut Shell Oil),Cashew Nut Shell Cake or De-oiled Cashew Shell Cake.",

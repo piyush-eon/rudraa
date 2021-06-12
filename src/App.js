@@ -4,10 +4,13 @@ import Home from "./pages/Home/Home";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Home />
-    </div>
+    <>
+      <h2 className="message">Site can only be viewed in desktop</h2>
+      <div className="App">
+        <Header />
+        <Home />
+      </div>
+    </>
   );
 }
 

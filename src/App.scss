@@ -8,3 +8,18 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+.message {
+  display: none;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .App {
+    display: none;
+  }
+  .message {
+    display: block;
+  }
+}

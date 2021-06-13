@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -23,3 +25,13 @@ a {
     display: block;
   }
 }
+
+// @font-face {
+//   font-family: "Sansation Regular";
+//   src: url("SansationRegular.eot");
+//   src: url("SansationRegular.eot?#iefix") format("embedded-opentype"),
+//     url("SansationRegular.woff") format("woff"),
+//     url("SansationRegular.ttf") format("truetype");
+//   font-weight: normal;
+//   font-style: normal;
+// }

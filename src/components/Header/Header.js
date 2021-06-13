@@ -4,7 +4,9 @@ import { data } from "../../data/data";
 const Header = () => {
   return (
     <header className="nav">
-      <img alt="logo" src="logo.png" height="100%" />
+      <a href="#Home">
+        <img alt="logo" src="logo.png" height="100%" />
+      </a>
       <ul className="nav__items">
         {data.nav.map((item) => (
           <li className="nav__items--single" key={item}>

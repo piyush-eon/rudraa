@@ -29,7 +29,7 @@
 
     &--subtitle {
       font-size: 26px;
-      font-family: monospace;
+      font-family: "Roboto", sans-serif;
       padding-right: 100px;
     }
   }
@@ -97,7 +97,7 @@
       padding-top: 15px;
       color: white;
       font-weight: 700;
-      font-family: monospace;
+      font-family: "Roboto", sans-serif;
       position: absolute;
       text-transform: capitalize;
       font-size: 40px;
@@ -139,7 +139,7 @@
 
     &--subtitle {
       font-size: 26px;
-      font-family: monospace;
+      font-family: "Roboto", sans-serif;
       padding: 35px 0;
     }
   }
@@ -150,7 +150,7 @@
   height: 550px;
   min-height: 100%;
   background: linear-gradient(0deg, #47c4e791, #428ea2),
-    url(https://ilovetofu.ca/site/uploads/2020/08/tofu-waiw-208-vietnam-83-momberry-farm-web.jpg);
+    url(../../data/CASHEW1-superJumbo.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
